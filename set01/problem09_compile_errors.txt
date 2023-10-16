@@ -1,10 +1,2 @@
-c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem09.c: In function 'mysqrt':
-c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem09.c:11:28: error: 'n' undeclared (first use in this function)
-         float next=(pguess+n/pguess)/2;
-                            ^
-c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem09.c:11:28: note: each undeclared identifier is reported only once for each function it appears in
-c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem09.c: In function 'main':
-c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem09.c:27:5: error: expected expression before '}' token
-     }
-     ^
-c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem09.c:27:5: error: expected declaration or statement at end of input
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem09.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
