@@ -7,11 +7,11 @@
         return num;
     }
     float mysqrt(float a){
-        float pguess;
-        float next=(pguess+n/pguess)/2;
+        float pguess=a/2;
+        float next=(pguess+a/pguess)/2;
         while(fabs(next*next-a)<0.000001){
             pguess=next;
-            next=(pguess+n/pguess)/2;
+            next=(pguess+a/pguess)/2;
             return next;
         }
         
