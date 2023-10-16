@@ -1,0 +1,21 @@
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem03.c: In function 'add':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem03.c:8:5: error: 'sum' undeclared (first use in this function)
+     sum=a+b;
+     ^~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem03.c:8:5: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem03.c: In function 'main':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem03.c:15:13: error: expected identifier or '(' before 'int'
+     int a , int b, int sum;
+             ^~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem03.c:17:5: error: 'b' undeclared (first use in this function)
+     b=input();
+     ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem03.c:18:5: error: 'sum' undeclared (first use in this function)
+     sum=add(a,b);
+     ^~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem03.c:19:5: error: too few arguments to function 'output'
+     output(sum);
+     ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem03.c:11:6: note: declared here
+ void output(int a,int b,int sum){
+      ^~~~~~
