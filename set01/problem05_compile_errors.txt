@@ -1,4 +1,0 @@
-c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem05.c: In function 'compare':
-c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem05.c:16:17: error: expected ';' before 'c'
-         largest c;
-                 ^
