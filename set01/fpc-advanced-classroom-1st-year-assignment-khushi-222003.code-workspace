@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Documents/javascript"
+		},
+		{
+			"path": "../../../../Documents/bootstrap"
+		},
+		{
+			"path": "../../../../c programming"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bootstrap"
+	}
+}
