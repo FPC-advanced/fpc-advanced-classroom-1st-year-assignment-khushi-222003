@@ -23,27 +23,27 @@ Complex add(Complex a, Complex b) {
     sum.imaginary = a.imaginary + b.imaginary;
     return sum;
 }
-Complex add_n_complex(int n, Complex c[n]) {
+Complex add_n_complex(int n, Complex p[n]) {
     Complex sum;
     sum.real = 0;
     sum.imaginary = 0;
     
     for (int i = 0; i < n; i++) {
-        sum.real += c[i].real;
-        sum.imaginary += c[i].imaginary;
+        sum.real += p[i].real;
+        sum.imaginary += p[i].imaginary;
     }
     return sum;
 }
-void output(int n, Complex c[n], Complex result) {
+void output(int n, Complex p[n], Complex result) {
     printf("The sum of %d of complex number is %f + %fi\n",n,result.real, result.imaginary);
 }
 int main() {
     int n = get_n();
-    Complex c[n],a,b;
-    input_n_complex(n,c);
+    Complex p[n],a,b;
+    input_n_complex(n,p);
     add(a,b);
-    Complex result = add_n_complex(n,c);
-    output(n,c,result);
+    Complex result = add_n_complex(n,p);
+    output(n,p,result);
     
     return 0;
 }

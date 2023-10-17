@@ -6,7 +6,7 @@ void output(int a, int b, int c, int isscalene);
 */
 
 #include<stdio.h>
-int input_side(){
+int input(){
     int a;
     int b;
     int c;
