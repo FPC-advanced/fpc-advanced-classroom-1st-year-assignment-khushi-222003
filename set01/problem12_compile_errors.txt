@@ -1,0 +1,25 @@
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c: In function 'get_n':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:8:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the size of complex:");
+     ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:8:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:8:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:9:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d",&n);
+     ^~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:9:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:9:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c: In function 'input_n_complex':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:14:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("Enter %d values for the array:\n", n);
+     ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:14:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:17:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%f %f", &c[i].real,&c[i].imaginary);
+     ^~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:17:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c: In function 'output':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:38:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("The sum of %d of complex number is %f + %fi\n",n,result.real, result.imaginary);
+     ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set01\problem12.c:38:5: note: include '<stdio.h>' or provide a declaration of 'printf'
