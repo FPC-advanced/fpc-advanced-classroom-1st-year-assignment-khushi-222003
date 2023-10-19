@@ -10,11 +10,11 @@ int get_n() {
     return n;
 }
 
-void input_n_complex(int n,Complex c[n]) {
+void input_n_complex(int n,Complex p[n]) {
     printf("Enter %d values for the array:\n", n);
     for (int i = 0; i < n; i++) {
      printf("\nEnter the real and imaginary part of %d complex number:",i+1);
-    scanf("%f %f", &c[i].real,&c[i].imaginary);
+    scanf("%f %f", &p[i].real,&p[i].imaginary);
     }
 }
 Complex add(Complex a, Complex b) {

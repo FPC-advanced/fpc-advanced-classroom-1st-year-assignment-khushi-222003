@@ -1,2 +1,11 @@
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem02.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem02.c: In function 'main':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem02.c:37:19: error: 'a' undeclared (first use in this function)
+     check_scalene(a,b,c);
+                   ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem02.c:37:19: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem02.c:37:21: error: 'b' undeclared (first use in this function)
+     check_scalene(a,b,c);
+                     ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem02.c:37:23: error: 'c' undeclared (first use in this function)
+     check_scalene(a,b,c);
+                       ^

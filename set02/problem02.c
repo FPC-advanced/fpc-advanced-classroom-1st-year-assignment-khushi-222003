@@ -8,11 +8,10 @@ void output(int a, int b, int c, int isscalene);
 #include<stdio.h>
 int input(){
     int a;
-    int b;
-    int c;
     printf("Enter the sides\n");
-    scanf("%d %d %d",a,b,c);
+    scanf("%d",&a);
     return a;
+    
 }
  int check_scalene(int a,int b,int c){
 if(a!=b&& a!=c && b!=c){
@@ -34,11 +33,12 @@ return 0;
     }
  }
  int main(){
-    int a,  b, c, isscalene;
-    a=input();
-    b=input();
-    c=input();
+    int a,b,c;
+    a = input();
+    b = input();
+    c = input();
     check_scalene(a,b,c);
+    int isscalene;
     output(a,b,c,isscalene);
     return 0;
  }
