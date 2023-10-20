@@ -11,7 +11,7 @@ void output(int n, int result);
 #include<stdio.h>
 int input_number(){
     int num;
-    printf("Enter the number \n");
+    printf("Enter the number: \n");
     scanf("%d",&num);
     return num;
 }
@@ -21,7 +21,7 @@ int is_composite(int n){
             return 1;
         }
         else{
-        return -1;
+            return 0;
         }
 
     }
@@ -37,9 +37,9 @@ int is_composite(int n){
         }
 
 int main(){
-    int num, n, result;
+    int num, result;
     num=input_number();
-    result=is_composite(n);
-    output(n,result);
+    result=is_composite(num);
+    output(num,result);
     return 0;
 }
