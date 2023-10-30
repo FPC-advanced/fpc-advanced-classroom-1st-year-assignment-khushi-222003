@@ -23,12 +23,14 @@ Triangle input_n(){
 	int n;
 	printf("Enter the no.of triangle\n");
 	scanf("%d",&n);
+	return n;
 
 
 }
 
 Triangle input_triangle(){
 	float height, breadth;
+	printf("")
 
 }
 
