@@ -30,7 +30,8 @@ Triangle input_n(){
 
 Triangle input_triangle(){
 	Triangle t;
-	printf("Enetr the altitude of triangle\n ")
+	printf("Enetr the altitude of triangle\n ");
+	scanf("%f", &t.base)
 
 }
 
