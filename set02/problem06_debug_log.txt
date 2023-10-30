@@ -30,3 +30,5 @@ $1 = "üþ`\000=|Ku\b\000\000\000}\201Juc\201Ju¤sj[à\022@\000à\022@\000\000\000\00
 input_string (a=0x60febc "üþ`")
     at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:13
 13	    printf("Enter the string\n");
+14	    scanf("%s",a);
+15	}
