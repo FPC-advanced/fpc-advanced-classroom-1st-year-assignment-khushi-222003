@@ -26,9 +26,9 @@ int is_composite_number(int n){
         if(n%i==0){
             return 1;
         }
-        else{
-            return 0;
-        }
+    
+            return -1;
+        
     }
 
 
@@ -45,7 +45,7 @@ int sum_composite_number(int n , int a[n]){
 
 }
 
-void output(int n ,int a[n],int sum){
+void output(int sum){
     printf("sum of composite number is %d",sum);
 }
 int main(){
@@ -54,7 +54,7 @@ int main(){
     input_array(n,a);
     is_composite_number(n);
     sum=sum_composite_number(n,a);
-    output(n,a,sum);
+    output(sum);
     return 0;
 
 
