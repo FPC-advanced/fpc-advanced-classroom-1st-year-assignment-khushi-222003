@@ -32,3 +32,12 @@ input_string (a=0x60febc "üþ`")
 13	    printf("Enter the string\n");
 14	    scanf("%s",a);
 15	}
+main () at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:34
+34	    str_reverse(a, rev_str);
+str_reverse (str=0x60febc "abc", rev_str=0x60fe58 "¨þ`")
+    at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:17
+17	     int length= strlen(str);
+
+Breakpoint 2, str_reverse (str=0x60febc "abc", rev_str=0x60fe58 "¨þ`")
+    at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:18
+18	     for (int i=0; i<length/2; i++){
