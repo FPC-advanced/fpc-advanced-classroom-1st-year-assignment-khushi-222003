@@ -20,6 +20,8 @@ typedef struct _triangle{
 	float base, altitude, area;
 }Triange;
 Triangle input_n(){
+	int n;
+	printf
 
 }
 
