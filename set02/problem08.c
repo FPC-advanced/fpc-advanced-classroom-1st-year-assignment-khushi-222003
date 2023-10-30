@@ -38,7 +38,10 @@ Triangle input_triangle(){
 
 }
 void input_n_triangles(int n , triangle t[n]){
-	
+	for(int i=0; i<=n; i++){
+		
+	}
+
 
 }
 
