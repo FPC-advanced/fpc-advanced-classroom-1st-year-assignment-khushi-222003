@@ -41,3 +41,5 @@ str_reverse (str=0x60febc "abc", rev_str=0x60fe58 "¨þ`")
 Breakpoint 2, str_reverse (str=0x60febc "abc", rev_str=0x60fe58 "¨þ`")
     at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:18
 18	     for (int i=0; i<length/2; i++){
+$2 = 3
+19	         char ch=str[i];
