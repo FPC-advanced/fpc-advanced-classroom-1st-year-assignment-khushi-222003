@@ -29,7 +29,7 @@ Triangle input_n(){
 }
 
 Triangle input_triangle(){
-	float altitude, breadth;
+	Triangle t;
 	printf("Enetr the altitude of triangle\n ")
 
 }
