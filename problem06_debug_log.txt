@@ -1,0 +1,13 @@
+No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
+No breakpoints or watchpoints.
+No symbol table is loaded.  Use the "file" command.
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) Breakpoint 1 (info) pending.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   <PENDING>  info
+No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
