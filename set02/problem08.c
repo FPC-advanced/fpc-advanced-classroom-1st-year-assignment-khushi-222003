@@ -22,7 +22,9 @@ typedef struct _triangle{
 Triangle input_n(){
 	int n;
 	printf("Enter the no.of triangle\n");
-	scanf("%")
+	scanf("%d",&n);
+
 
 }
 
+void input_n_
