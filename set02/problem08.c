@@ -21,7 +21,8 @@ typedef struct _triangle{
 }Triange;
 Triangle input_n(){
 	int n;
-	printf
+	printf("Enter the no.of triangle\n");
+	scanf("%")
 
 }
 
