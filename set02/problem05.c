@@ -22,7 +22,7 @@ int find_gcd(int a,int b,int gcd){
     }
 }
 void output(int a,int b,int gcd){
-    printf("The GCD of givrn numbers is %d", &gcd);
+    printf("The GCD of given numbers is %d", &gcd);
 }
 int main(){
     int a,b,n, gcd;

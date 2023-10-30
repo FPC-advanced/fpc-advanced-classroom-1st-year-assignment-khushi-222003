@@ -8,24 +8,32 @@ void output(char *a, char *reverse_a);
 ```*/
 
 #include<stdio.h>
-#include<stdio.h>
+#include<string.h>
 void input_string(char*a){
-    printf("Enter the string");
+    printf("Enter the string\n");
     scanf("%s",a);
 }
 int str_reverse(char *str, char *rev_str){
-     strrev(a);
+     int length= strlen(str);
+     for (int i=0; i<length/2; i++){
+         char ch=str[i];
+        str[i]=str[length-1-i];
+        str[length-1-i]=ch;
+     }
+     
 }
 
-void output(char a){
-    printf("The reverse of string is %s",strrev);
+void output(char *a ,char *reverse_a){
+    printf("The reverse of string is %s\n",reverse_a);
 }
 
 int main(){
     char a[100];
-    strrev(a);
-    input_string(a);
-    output(a);
+    char rev_str[100];
+     input_string(a);
+    str_reverse(a, rev_str);
+   
+    output(a, rev_str);
     return 0;
 
 }
