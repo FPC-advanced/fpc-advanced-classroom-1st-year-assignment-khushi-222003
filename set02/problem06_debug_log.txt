@@ -1,0 +1,11 @@
+24	}
+25	
+26	void output(char *a ,char *reverse_a){
+27	    printf("The reverse of string is %s\n",reverse_a);
+28	}
+29	
+30	int main(){
+31	    char a[100];
+32	    char rev_str[100];
+33	     input_string(a);
+Breakpoint 1 at 0x40152b: file c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c, line 32.
