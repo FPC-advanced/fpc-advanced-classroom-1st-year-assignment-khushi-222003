@@ -27,6 +27,8 @@ Triangle input_n(){
 
 }
 
-void input_n_triangles(int n, Triangle t[n]){
+Triangle input_triangle(){
 	
+}
+
 }
