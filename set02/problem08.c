@@ -28,7 +28,7 @@ Triangle input_n(){
 }
 
 Triangle input_triangle(){
-	
-}
+	float height, breadth;
 
 }
+
