@@ -26,3 +26,7 @@ Starting program: C:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-class
 
 Breakpoint 1, main () at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:33
 33	     input_string(a);
+$1 = "üþ`\000=|Ku\b\000\000\000}\201Juc\201Ju¤sj[à\022@\000à\022@\000\000\000\000\000 \032@\000Ðþ`\000\bÿ`\000Ìÿ`\000páJu RE.þÿÿÿ\bÿ`\000m‚Ju \032@\000Tÿ`\000{\032@\000 \032@\000ð#ô\000\000\000\000\000\000@7"
+input_string (a=0x60febc "üþ`")
+    at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:13
+13	    printf("Enter the string\n");
