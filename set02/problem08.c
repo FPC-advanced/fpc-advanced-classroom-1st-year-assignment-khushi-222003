@@ -37,6 +37,8 @@ Triangle input_triangle(){
 	return t;
 
 }
-void input_n_triangles(int n , trianglr)
+void input_n_triangles(int n , triangle t[n]){
+	
+}
 
 
