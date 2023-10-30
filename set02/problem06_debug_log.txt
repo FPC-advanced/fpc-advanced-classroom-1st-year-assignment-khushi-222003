@@ -9,3 +9,20 @@
 32	    char rev_str[100];
 33	     input_string(a);
 Breakpoint 1 at 0x40152b: file c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c, line 32.
+Breakpoint 2 at 0x40149c: file c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c, line 18.
+Breakpoint 3 at 0x4014b3: file c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c, line 20.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040152b in main 
+                                           at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:32
+2       breakpoint     keep y   0x0040149c in str_reverse 
+                                           at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:18
+3       breakpoint     keep y   0x004014b3 in str_reverse 
+                                           at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:20
+Starting program: C:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02/./problem06.exe 
+[New Thread 1096.0x108c]
+[New Thread 1096.0x17fc]
+[New Thread 1096.0x1684]
+[New Thread 1096.0x1a24]
+
+Breakpoint 1, main () at c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem06.c:33
+33	     input_string(a);
