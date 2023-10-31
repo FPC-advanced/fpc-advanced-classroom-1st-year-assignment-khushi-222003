@@ -1,0 +1,50 @@
+Compilation started at 10/31/2023, 11:12:05 AM
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:14:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ typedef struct_triangle{
+                        ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:16:2: warning: data definition has no type or storage class
+ }Triangle;
+  ^~~~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:16:2: warning: type defaults to 'int' in declaration of 'Triangle' [-Wimplicit-int]
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:18:1: error: unknown type name 'Triangle'
+ Triangle input_triangle(){
+ ^~~~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c: In function 'input_triangle':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:19:11: error: expected ';' before 't'
+  Triangle t;
+           ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:21:14: error: 't' undeclared (first use in this function)
+  scanf("%f",&t.base)
+              ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:21:14: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:22:2: error: expected ';' before 'printf'
+  printf("Enter the altitude\n");
+  ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c: At top level:
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:29:16: error: unknown type name 'triangle'
+ void find_area(triangle *t){
+                ^~~~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:34:13: error: unknown type name 'triangle'
+ void output(triangle t){
+             ^~~~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c: In function 'main':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:39:11: error: expected ';' before 't'
+  Triangle t;
+           ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:40:2: error: 't' undeclared (first use in this function)
+  t=input_triangle();
+  ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:41:2: warning: implicit declaration of function 'find_area' [-Wimplicit-function-declaration]
+  find_area(&t);
+  ^~~~~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:42:2: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+  output(t);
+  ^~~~~~
+Compilation finished at 10/31/2023, 11:12:05 AM
+Compilation started at 10/31/2023, 11:21:15 AM
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set02\problem07.c:45:2: error: expected identifier or '(' before '>' token
+ }>
+  ^
+Compilation finished at 10/31/2023, 11:21:15 AM
+Compilation started at 10/31/2023, 11:24:03 AM
+Compilation finished at 10/31/2023, 11:24:04 AM

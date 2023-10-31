@@ -9,9 +9,10 @@ void output(char *a, char *reverse_a);
 
 #include<stdio.h>
 #include<string.h>
-void input_string(char*a){
-    printf("Enter the string\n");
-    scanf("%s",a);
+void input_string(char*str){
+printf("Enter the string\n");
+
+    scanf("%s",str);
 }
 int str_reverse(char *str, char *rev_str){
      int length= strlen(str);
@@ -23,17 +24,17 @@ int str_reverse(char *str, char *rev_str){
      
 }
 
-void output(char *a ,char *reverse_a){
-    printf("The reverse of string is %s\n",reverse_a);
+void output(char *str){
+    printf("The reverse of string is %s \n",str);
 }
 
 int main(){
-    char a[100];
+    char str[100];
     char rev_str[100];
-     input_string(a);
-    str_reverse(a, rev_str);
+     input_string(str);
+    str_reverse(str, rev_str);
    
-    output(a, rev_str);
+    output(str);
     return 0;
 
 }

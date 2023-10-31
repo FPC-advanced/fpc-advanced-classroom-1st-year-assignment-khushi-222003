@@ -1,0 +1,16 @@
+Compilation started at 10/31/2023, 12:00:31 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set03\problem03.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/31/2023, 12:00:31 PM
+Compilation started at 10/31/2023, 12:00:43 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set03\problem03.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/31/2023, 12:00:44 PM
+Compilation started at 10/31/2023, 7:17:24 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set03\problem03.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/31/2023, 7:17:25 PM
+Compilation started at 10/31/2023, 7:17:33 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set03\problem03.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/31/2023, 7:17:33 PM
