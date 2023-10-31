@@ -43,3 +43,6 @@ Breakpoint 2, str_reverse (str=0x60febc "abc", rev_str=0x60fe58 "¨ş`")
 18	     for (int i=0; i<length/2; i++){
 $2 = 3
 19	         char ch=str[i];
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
