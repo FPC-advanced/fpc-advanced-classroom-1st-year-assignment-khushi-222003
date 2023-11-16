@@ -1,0 +1,77 @@
+Compilation started at 11/16/2023, 9:56:34 PM
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:29:7: error: return type is an incomplete type
+ Point input(){
+       ^~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c: In function 'input':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:30:11: error: storage size of 'p' isn't known
+     Point p;
+           ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:35:12: warning: 'return' with a value, in function returning void
+     return p;
+            ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:29:7: note: declared here
+ Point input(){
+       ^~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c: At top level:
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:38:17: error: parameter 1 ('a') has incomplete type
+ void dist(Point a, Point b, float *res){
+                 ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:38:26: error: parameter 2 ('b') has incomplete type
+ void dist(Point a, Point b, float *res){
+                          ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:41:19: error: parameter 1 ('a') has incomplete type
+ void output(Point a, Point b, float res){
+                   ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:41:28: error: parameter 2 ('b') has incomplete type
+ void output(Point a, Point b, float res){
+                            ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c: In function 'main':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:45:11: error: storage size of 'point1' isn't known
+     Point point1,point2;
+           ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:45:18: error: storage size of 'point2' isn't known
+     Point point1,point2;
+                  ^~~~~~
+Compilation finished at 11/16/2023, 9:56:35 PM
+Compilation started at 11/16/2023, 9:59:46 PM
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:29:7: error: return type is an incomplete type
+ Point input_point(){
+       ^~~~~~~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c: In function 'input_point':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:30:11: error: storage size of 'p' isn't known
+     Point p;
+           ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:35:12: warning: 'return' with a value, in function returning void
+     return p;
+            ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:29:7: note: declared here
+ Point input_point(){
+       ^~~~~~~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c: At top level:
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:38:17: error: parameter 1 ('a') has incomplete type
+ void dist(Point a, Point b, float *res){
+                 ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:38:26: error: parameter 2 ('b') has incomplete type
+ void dist(Point a, Point b, float *res){
+                          ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:41:19: error: parameter 1 ('a') has incomplete type
+ void output(Point a, Point b, float res){
+                   ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:41:28: error: parameter 2 ('b') has incomplete type
+ void output(Point a, Point b, float res){
+                            ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c: In function 'main':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:45:11: error: storage size of 'point1' isn't known
+     Point point1,point2;
+           ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:45:18: error: storage size of 'point2' isn't known
+     Point point1,point2;
+                  ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:47:5: error: 'p' undeclared (first use in this function)
+     p=input_point();
+     ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:47:5: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem01.c:48:4: error: 'result' undeclared (first use in this function)
+    result= dist(point1,point2,&distance);
+    ^~~~~~
+Compilation finished at 11/16/2023, 9:59:46 PM

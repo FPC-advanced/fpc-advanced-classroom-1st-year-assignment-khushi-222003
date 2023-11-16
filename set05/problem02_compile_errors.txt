@@ -1,0 +1,47 @@
+Compilation started at 11/16/2023, 10:19:53 PM
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c: In function 'find_weight':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:26:5: error: 'weight' undeclared (first use in this function)
+     weight = PI * stomach_radius^3 * sqrt(height * length)
+     ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:26:5: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:26:19: error: 'stomach_radius' undeclared (first use in this function)
+     weight = PI * stomach_radius^3 * sqrt(height * length)
+                   ^~~~~~~~~~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:27:1: error: expected ';' before '}' token
+ }
+ ^
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c: In function 'output':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:33:37: error: 'weight' undeclared (first use in this function)
+     printf("Weight of Camel:%.2f\n",weight);
+                                     ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c: In function 'main':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:39:5: error: too many arguments to function 'output'
+     output(radius, height, length, weight);
+     ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:29:6: note: declared here
+ void output(float radius, float height, float length){
+      ^~~~~~
+Compilation finished at 11/16/2023, 10:19:53 PM
+Compilation started at 11/16/2023, 10:20:29 PM
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c: In function 'find_weight':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:26:5: error: 'weight' undeclared (first use in this function)
+     weight = PI * stomach_radius^3 * sqrt(height * length)
+     ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:26:5: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:26:19: error: 'stomach_radius' undeclared (first use in this function)
+     weight = PI * stomach_radius^3 * sqrt(height * length)
+                   ^~~~~~~~~~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:27:1: error: expected ';' before '}' token
+ }
+ ^
+Compilation finished at 11/16/2023, 10:20:29 PM
+Compilation started at 11/16/2023, 10:20:54 PM
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c: In function 'find_weight':
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:26:5: error: 'weight' undeclared (first use in this function)
+     weight = PI * stomach_radius^3 * sqrt(height * length);
+     ^~~~~~
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:26:5: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\asus\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-khushi-222003\set05\problem02.c:26:19: error: 'stomach_radius' undeclared (first use in this function)
+     weight = PI * stomach_radius^3 * sqrt(height * length);
+                   ^~~~~~~~~~~~~~
+Compilation finished at 11/16/2023, 10:20:54 PM
